@@ -1,47 +1,59 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0d78c;
   font-family: "Open Sans";
   font-size: 20px;
   color: #333;
   line-height: 34px;
+  background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
 }
 
 h1, h2 {
   color: #4f81c7;
-  font-family: "Monserrat"
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
   line-height: 40px;
 }
 h2 {
   line-height: 30px;
 }
 a {
-  color: 64c4ed;
+  color: #64c4ed;
+  display: block;
+  width: 50px;
+}
+a:hover {
+  font-size: 28px;
 }
 #btn-main {
+  display: block;
+  width: 200px;
   border-radius: 4px;
   padding: 12px 20px;
+  margin: 50px auto 20px auto;
   background-color: #64c4ed;
   color: #fcfafa;
   text-decoration: none;
 }
 #btn-main:hover {
-  padding: 12px 18px;
-  letter-spacing: 1px;
   box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, .1);
 }
 #circle-pic {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
+
+  position: absolute;
+  margin-left: -332px;
+  margin-top: -104px;
 }
 .container {
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   width: 800px;
 }
 .card {
